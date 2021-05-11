@@ -26,6 +26,12 @@ const NavBar = () => {
                  <li className="nav-item">
                  <Link to='/' className="nav-links">CONTACTS</Link>
                  </li>
+                 <li className="nav-item">
+                 <Link to="/" className="btn btn-2 btn-3 " >
+                <span>8289906276</span> 
+                <i class="fas fa-phone"></i>
+          </Link>
+                 </li>
              </ul>
 
              </div>

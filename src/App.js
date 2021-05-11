@@ -2,7 +2,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Contents from "./Components/Contents";
 import Footer from "./Components/Footer";
-// import Home from "./Components/Home";
+import Home from "./Components/Home";
 import AOS from "aos";
 AOS.init({
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Home /> */}
+        <Home />
         <Contents />
         <Footer />
       </Router>
