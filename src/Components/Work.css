@@ -1,26 +1,35 @@
-.work-head h1 {
-  /* position: relative;
-  top: 65px;
-  left: 129px; */
+
+.work{
+  margin-top: 70px;
+}.work-head h1 {
+  top: -104px;
+  left: 0;
+  position: absolute;
+  margin-top: 50px;
   margin-left: 110px;
-  font-size: 50px;
+  font-size: 45px;
   color: #ffc400;
+}
+.work-container{
+  position: relative;
 }
 .work-content {
   display: flex;
   justify-content: space-around;
-  padding: 50px;
+  padding:0 50px;
 }
 .work-content-left {
   flex: 0.5;
+  padding-left: 20px;
 }
 .work-content-right {
+  
   flex: 0.5;
 }
 .work-contents {
   color: #fff;
   margin-top: 30px;
-  padding: 20px;
+  padding:0 20px;
 }
 .work-content h1 {
   font-size: 42px;
@@ -28,7 +37,7 @@
 }
 .work-content p {
   font-size: 18px;
-  margin-top: 70px;
+  margin-top: 40px;
   font-weight: 100;
   color: rgb(185, 184, 184);
 }

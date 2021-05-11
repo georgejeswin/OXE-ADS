@@ -3,11 +3,12 @@
   width: 100%;
 }
 .head h1 {
-  /* position: relative;
+  /* position: absolute;
   top: 65px;
   left: 129px; */
+  margin-top: 60px;
   margin-left: 110px;
-  font-size: 50px;
+  font-size: 55px;
   color: #ffc400;
 }
 
@@ -19,8 +20,8 @@
 }
 .menu-lists {
   position: absolute;
-  top: 88px;
-  left: 128px;
+  top: 25px;
+  left: 152px;
   max-width: 500px;
   list-style: none;
 }
@@ -42,9 +43,9 @@
 }
 .menu img {
   position: absolute;
-  top: 80px;
+  top: 0;
   right: -1px;
-  width: 50%;
+  width: 45%;
   height: 90vh;
 }
 .menu {
