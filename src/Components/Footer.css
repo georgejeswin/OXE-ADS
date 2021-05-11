@@ -1,0 +1,13 @@
+.footer {
+  background: linear-gradient(#39156e, #43207a);
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
