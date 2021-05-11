@@ -1,0 +1,41 @@
+.work-head h1 {
+  position: relative;
+  top: 65px;
+  left: 129px;
+  font-size: 50px;
+  color: #ffc400;
+}
+.work-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.work-content-left {
+  flex: 0.5;
+}
+.work-content-right {
+  flex: 0.5;
+}
+.work-contents {
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+}
+.work-content h1 {
+  font-size: 42px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+.work-content p {
+  font-size: 18px;
+  margin-top: 70px;
+  font-weight: 100;
+  color: rgb(185, 184, 184);
+}
+.work-content-text {
+  padding: 50px;
+}
+.work-content img {
+  min-width: 500px;
+  max-width: 700px;
+}
