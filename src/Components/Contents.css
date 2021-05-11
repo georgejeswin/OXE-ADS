@@ -1,4 +1,5 @@
 .contents{
-    background:linear-gradient(#2D0C5D, #2A0C5A) ;
+    background: rgb(45,12,93);
+    background: linear-gradient(90deg, rgba(45,12,93,1) 0%, rgba(103,11,151,1) 50%, rgba(42,12,90,1) 100%);
     position: relative;
 }
