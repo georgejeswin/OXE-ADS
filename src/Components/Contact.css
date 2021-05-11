@@ -1,8 +1,12 @@
-.contact-head h1 {
-  /* position: relative;
-  top: 65px;
-  left: 129px; */
-  margin-left: 110px;
+
+.contact{
+  position: relative;
+  max-width: 1100px;
+}.contact-head h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 110px;
   font-size: 50px;
   color: #ffc400;
 }

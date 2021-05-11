@@ -1,12 +1,6 @@
 .footer {
-  background: rgb(24, 6, 131);
-  background: linear-gradient(
-    80deg,
-    rgba(24, 6, 131, 1) 0%,
-    rgba(29, 60, 120, 1) 37%,
-    rgba(39, 50, 140, 1) 52%,
-    rgba(86, 14, 111, 1) 81%
-  );
+  background: #291c56;
+
   color: #fff;
 }
 .footer-container {
