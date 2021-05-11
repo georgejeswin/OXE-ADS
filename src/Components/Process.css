@@ -3,9 +3,6 @@
   width: 100%;
 }
 .head h1 {
-  /* position: absolute;
-  top: 65px;
-  left: 129px; */
   margin-top: 60px;
   margin-left: 110px;
   font-size: 52px;
@@ -29,7 +26,6 @@
   font-size: 28px;
   margin: 45px 0;
   color: #fffc;
-  
 }
 
 .menu-list::before {
@@ -50,4 +46,33 @@
 }
 .menu {
   object-fit: contain;
+}
+@media only screen and (max-width: 600px) {
+  .process {
+    margin-top: 1000px;
+  }
+  .head h1 {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .menu-lists {
+    top: 10px;
+    left: 52px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu img {
+    position: absolute;
+    top: 90px;
+    right: -1px;
+    width: 55%;
+    height: 50vh;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  .process {
+    height: 70vh;
+    width: 100%;
+  }
 }

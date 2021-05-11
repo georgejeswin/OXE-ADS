@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
 }
-ul li{
+ul li {
   list-style: none;
 }
 ul li::before {
@@ -44,4 +44,17 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-social {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }

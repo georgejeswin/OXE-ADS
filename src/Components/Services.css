@@ -23,10 +23,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   position: absolute;
   bottom: 40px;
   width: 80%;
@@ -114,4 +115,20 @@
 .fas {
   font-size: 30px;
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .service-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    -webkit-box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    padding: 30px;
+  }
+  .head-container {
+    left: 10px;
+    top: 120px;
+  }
 }
