@@ -17,6 +17,7 @@
     flex-direction:column;
     justify-content: center;
    margin-left: 10%;
+   max-width: 500px;
 }
 .main-text{
     margin-top: 10px;
@@ -44,6 +45,6 @@
 }
 .main-head{
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.3;
 }    
