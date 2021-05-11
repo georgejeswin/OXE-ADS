@@ -6,3 +6,44 @@
     top: 0;
     background-size: cover;
 }
+.head-img{
+   width: 400px;
+   /* height: 400px; */
+}
+.home-container{
+      height: 100vh;
+      width: 40%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   margin-left: 10%;
+}
+.main-text{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+  
+.main-text:before,
+.main-text:after {
+  
+    content: "";
+    
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: auto;
+}
+.main-text:before{
+    flex:1 ;
+}
+.main-text:after{
+    flex: 3;
+}
+.main-head{
+    color: #fff;
+    font-size: 5rem;
+    line-height: 1.3;
+}    
