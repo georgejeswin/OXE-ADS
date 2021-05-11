@@ -6,7 +6,7 @@ const NavBar = () => {
         <>
          <nav className="navbar">
              <div className="nav-container">
-               <Link to="/" className="nav-logo"><img className="logo" alt="logo" src="./logo/logo-1.svg"/></Link>
+               <Link to="/" className="nav-logo"><img className="logo" alt="logo" src="./logo/logo-1.png"/></Link>
              <ul className='nav-menu'>
                  <li className="nav-item">
                      <Link to='/' className="nav-links">HOME</Link>
