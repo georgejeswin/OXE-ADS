@@ -19,6 +19,9 @@
   align-items: center;
   justify-content: center;
 }
+ul li{
+  list-style: none;
+}
 ul li::before {
   content: none;
 }
