@@ -1,51 +1,52 @@
-.process{
-    height: 110vh;
-    width: 100%;
+.process {
+  height: 110vh;
+  width: 100%;
 }
-.head h1{
-    position: relative;
-    top: 65px;
-    left: 129px;
-    font-size: 50px;
-    color: #FFC400;
+.head h1 {
+  /* position: relative;
+  top: 65px;
+  left: 129px; */
+  margin-left: 110px;
+  font-size: 50px;
+  color: #ffc400;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    position: relative;
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
 }
-.menu-lists{
-    position: absolute;
-    top: 88px;
-    left: 128px;
-    max-width: 500px;
+.menu-lists {
+  position: absolute;
+  top: 88px;
+  left: 128px;
+  max-width: 500px;
+  list-style: none;
 }
-.menu-list{
-    
-    font-size: 30px;
-    margin: 45px 0;
-    color:#fff ;
-}
-ul {
-    list-style: none;
-  }
+.menu-list {
+  font-size: 30px;
+  margin: 45px 0;
+  color: #fff;
   
-  ul li::before {
-    content: "\2022";
-    color: #C500FF;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-    text-shadow: 0 4px 8px 0 #c300ff1a, 0 6px 20px 0 #c300ffa1;
-   
-  }
-.menu img{
-    position: absolute;
-    top: 80px;
-    right: -59px;
-    width: 50%;
-    height: 90vh;
+}
+
+.menu-list::before {
+  content: "\2022";
+  color: #c500ff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  text-shadow: 0 4px 8px 0 #c300ff1a, 0 6px 20px 0 #c300ffa1;
+}
+.menu img {
+  position: absolute;
+  top: 80px;
+  right: -1px;
+  width: 50%;
+  height: 90vh;
+}
+.menu {
+  object-fit: contain;
 }

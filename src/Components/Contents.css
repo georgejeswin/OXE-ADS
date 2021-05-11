@@ -1,5 +1,11 @@
-.contents{
-    background: rgb(45,12,93);
-    background: linear-gradient(90deg, rgba(45,12,93,1) 0%, rgba(103,11,151,1) 50%, rgba(42,12,90,1) 100%);
-    position: relative;
+.contents {
+  background: rgb(24, 6, 131);
+  background: linear-gradient(
+    80deg,
+    rgba(24, 6, 131, 1) 0%,
+    rgba(29, 60, 120, 1) 18%,
+    rgba(8, 20, 111, 1) 37%,
+    rgba(86, 14, 111, 1) 70%
+  );
+  position: relative;
 }
