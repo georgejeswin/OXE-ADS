@@ -1,5 +1,6 @@
 .footer {
   background: linear-gradient(#39156e, #43207a);
+  color: #fff;
 }
 .footer-container {
   display: flex;
@@ -10,4 +11,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.footer ul li {
+  text-decoration: none;
+  list-style: none;
+}
+ul li::before {
+  content: none;
 }
