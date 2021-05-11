@@ -16,7 +16,7 @@
   position: absolute;
   width: 100%;
   left: 200px;
-  top:60px;
+  top:80px;
 
 }
 .service-container{
@@ -37,7 +37,7 @@
      height: 400px;
 }
 .service-card{
-    margin-top: 20px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
