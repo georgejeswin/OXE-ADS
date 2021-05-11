@@ -57,4 +57,14 @@ a:-webkit-any-link {
     margin-top: 30px;
     margin-bottom: 20px;
   }
+  .footer-logo {
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-logo img {
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+  }
 }
