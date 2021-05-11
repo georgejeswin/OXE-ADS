@@ -6,14 +6,14 @@ const Work = () => {
     <div className="work">
       <div className="work-container">
         <div className="work-head">
-          <h1>Industry Expertise</h1>
+          <h1 data-aos="fade-up">Industry Expertise</h1>
         </div>
         <div className="work-contents">
           <div className="work-content">
             <div className="work-content-left">
               <div className="work-content-text">
-                <h1>E-Commerce</h1>
-                <p>
+                <h1 >E-Commerce </h1>
+                <p >
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -26,13 +26,13 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div className="work-content-right">
-              <img src="./logo/work-ecom.png" alt="" />
+            <div className="work-content-right" >
+              <img data-aos="zoom-in" src="./logo/work-ecom.png" alt=""  />
             </div>
           </div>
           <div className="work-content">
             <div className="work-content-left">
-              <img src="./logo/tech.png" alt="" />
+              <img data-aos="zoom-in" src="./logo/tech.png" alt="" />
             </div>
             <div className="work-content-right">
               <div className="work-content-text">
@@ -69,12 +69,12 @@ const Work = () => {
               </div>
             </div>
             <div className="work-content-right">
-              <img src="./logo/travel.png" alt="" />
+              <img data-aos="zoom-in" src="./logo/travel.png" alt="" />
             </div>
           </div>
           <div className="work-content">
             <div className="work-content-left">
-              <img src="./logo/media.png" alt="" />
+              <img data-aos="zoom-in" src="./logo/media.png" alt="" />
             </div>
             <div className="work-content-right">
               <div className="work-content-text">

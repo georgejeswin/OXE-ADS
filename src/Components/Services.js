@@ -6,8 +6,8 @@ const Services = () => {
     <div className="services">
       <div className="service-container">
         <div className="head-container">
-          <h4 className="service-text">WHAT WE OFFER</h4>
-          <h1 className="service-head">Our Services</h1>
+          <h4 className="service-text" data-aos="fade-right">WHAT WE OFFER</h4>
+          <h1 className="service-head" data-aos="fade-up">Our Services</h1>
         </div>
         <div className="card-container">
           <div className="service-card">
