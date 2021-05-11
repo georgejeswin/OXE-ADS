@@ -39,9 +39,7 @@
   color: rgb(185, 184, 184);
   padding: 30px;
 }
-.work-content-text {
-  /* padding: 50px; */
-}
+
 .work-content-item img {
   min-width: 500px;
   max-width: 600px;
@@ -85,6 +83,7 @@
   .work-content h1 {
     font-size: 32px;
     font-weight: 700;
+    margin: 0;
   }
   .work-content {
     height: 70vh;
@@ -92,5 +91,15 @@
 
   .res-hide {
     display: none;
+  }
+}
+@media only screen and (max-width: 1054px) and (min-width: 601px) {
+  .res-hide {
+    display: none;
+  }
+  .work-contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
