@@ -3,9 +3,10 @@
   width: 100%;
 }
 .head h1 {
-  position: relative;
+  /* position: relative;
   top: 65px;
-  left: 129px;
+  left: 129px; */
+  margin-left: 110px;
   font-size: 50px;
   color: #ffc400;
 }
@@ -43,7 +44,10 @@ ul li::before {
 .menu img {
   position: absolute;
   top: 80px;
-  right: -59px;
+  right: -1px;
   width: 50%;
   height: 90vh;
+}
+.menu {
+  object-fit: contain;
 }
