@@ -1,7 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
+import $ from "jquery";
+window.$ = $;
 
 const Contact = () => {
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbycqvUnh14Jlpyc2sidbV0AVWVWt21AGGOtEhh_jiN0oL04BdEYPUxRdTGqOGOEsYs/exec",
+      data: $("#submit-form").serialize(),
+      method: "post",
+      success: function (response) {
+        setInputs({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+        alert("form submitted");
+      },
+      error: function (err) {
+        alert("Something Error");
+      },
+    });
+  };
   return (
     <>
       <div className="contact">
@@ -39,13 +67,50 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="contact-form">
+      <form
+        className="contact-form"
+        id="submit-form"
+        action=""
+        onSubmit={handleSubmit}
+      >
         <div className="card card-2">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="number" placeholder="Phone" />
-          <textarea type="text" rows="6" placeholder="Messages"></textarea>
-          <button className="btn-2">
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+            value={inputs.name}
+            onChange={(e) => setInputs({ ...inputs, name: e.target.value })}
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            id="name"
+            required
+            value={inputs.email}
+            onChange={(e) => setInputs({ ...inputs, email: e.target.value })}
+          />
+          <input
+            type="number"
+            name="phone"
+            placeholder="Phone"
+            id="phone"
+            value={inputs.phone}
+            onChange={(e) => setInputs({ ...inputs, phone: e.target.value })}
+          />
+          <textarea
+            type="text"
+            rows="6"
+            placeholder="Messages"
+            name="message"
+            id="message"
+            required
+            value={inputs.message}
+            onChange={(e) => setInputs({ ...inputs, message: e.target.value })}
+          ></textarea>
+          <button type="submit" className="btn-2">
             <span>Send</span>
             <i class="fas fa-paper-plane"></i>
           </button>
@@ -57,7 +122,7 @@ const Contact = () => {
             <div class="drop drop-6"></div>
           </div>
         </div>
-      </div>
+      </form>
     </>
   );
 };
