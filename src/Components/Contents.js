@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 import "./Contents.css";
 import Process from "./Process";
 import Services from "./Services";
@@ -9,6 +10,7 @@ const Contents = () => {
       <Services />
       <Process />
       <Work />
+      <Contact />
     </div>
   );
 };
