@@ -8,8 +8,8 @@
   left: 129px; */
   margin-top: 60px;
   margin-left: 110px;
-  font-size: 55px;
-  color: #ffc400;
+  font-size: 52px;
+  color: #ffc400d9;
 }
 
 .menu {
@@ -20,15 +20,15 @@
 }
 .menu-lists {
   position: absolute;
-  top: 25px;
+  top: 10px;
   left: 152px;
   max-width: 500px;
   list-style: none;
 }
 .menu-list {
-  font-size: 30px;
+  font-size: 28px;
   margin: 45px 0;
-  color: #fff;
+  color: #fffc;
   
 }
 
