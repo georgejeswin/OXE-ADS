@@ -1,5 +1,5 @@
 .process {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
 }
 .head h1 {
@@ -76,11 +76,25 @@
     height: 70vh;
     width: 100%;
   }
+  .process-image{
+    display: none;
+  }
 }
 @media only screen and (max-width: 1000px) and (min-width: 386px) {
   .menu img {
     opacity: 0.6;
+    
   }
+  .process-image{
+    display: none;
+  }.process{
+    display: flex;
+    align-items: center;
+  }
+  .service-container {
+    height: 66vh;
+  }
+
 }
 @media only screen and (max-width: 1000px) and (min-width: 386px) {
   .menu img {

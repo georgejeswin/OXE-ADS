@@ -9,4 +9,18 @@
   );
   position: relative;
   overflow: hidden;
+  
 }
+@media screen and (max-width:600px) {
+  .contents{
+    padding-top: 80px;
+    
+  }
+ 
+}
+/* @media only screen and (max-width: 320px){
+  .contents{
+    padding: 100px 0;
+    
+  }
+} */

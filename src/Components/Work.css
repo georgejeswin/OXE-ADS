@@ -108,6 +108,9 @@
     align-items: center;
     flex-direction: column;
   }
+  .work-content {
+    height: 50vh;
+  }
 }
 
 @media only screen and (max-width: 400px){

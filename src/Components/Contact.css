@@ -314,6 +314,9 @@ textarea::placeholder {
   font-size: 20px;
 }
 @media only screen and (max-width: 600px) {
+  /* .contact-form h1{
+    opacity: 0;
+  } */
   .contact-content {
     display: none;
   }
@@ -348,9 +351,9 @@ textarea::placeholder {
       height: 100vh;
     }
   }
- 
+   
 }
-@media only screen and (max-width: 1000px) and (min-width: 386px) {
+@media only screen and (max-width: 1024px) and (min-width: 386px) {
   .contact-content {
     display: none;
   }
@@ -362,10 +365,13 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 110vh;
   }
   .contact-container {
     display: flex;
     justify-content: center;
     
 }
+
+
 }

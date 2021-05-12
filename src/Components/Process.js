@@ -19,7 +19,7 @@ const Process = () => {
               Sit Back While We Deliver Your Creatives
             </li>
           </ul>
-          <img src="./logo/process.png" alt="process imgage" />
+          <img className="process-image" src="./logo/process.png" alt="process imgage" />
         </div>
       </div>
     </div>

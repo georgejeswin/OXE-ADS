@@ -117,6 +117,14 @@
   font-size: 30px;
   color: #fff;
 }
+@media screen and (max-width: 800px){
+  .service-container{
+    height: 60vh;
+  }
+  .card-container{
+    display: grid;
+  }
+}
 @media only screen and (max-width: 700px) {
   .service-card {
     background-color: rgba(255, 255, 255, 0.06);
@@ -131,6 +139,7 @@
   .card-container{
     position: relative;
     bottom: 0;
+    padding-top: 60px;
   }
   .head-container{
     position:relative;
@@ -159,4 +168,13 @@
     margin-top: 10px;
 }
 
+}
+@media only screen and (max-width: 320px){
+  .service-head {
+    font-size: 35px;
+    color: #ffc400;
+  }
+  .head-container h4{
+    font-size: 90%;
+  }
 }
