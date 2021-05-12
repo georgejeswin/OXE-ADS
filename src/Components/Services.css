@@ -2,6 +2,7 @@
 .services {
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 .service-text {
   font-size: 20px;
@@ -13,7 +14,7 @@
 }
 .head-container {
   position: absolute;
-  /* width: 100%; */
+  width: 100%;
   left: 200px;
   top: 80px;
 }
@@ -116,7 +117,7 @@
   font-size: 30px;
   color: #fff;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .service-card {
     background-color: rgba(255, 255, 255, 0.06);
     -webkit-backdrop-filter: blur(20px);
@@ -127,8 +128,35 @@
     transform: scale(1.1);
     padding: 30px;
   }
-  .head-container {
-    left: 10px;
-    top: 120px;
+  .card-container{
+    position: relative;
+    bottom: 0;
   }
+  .head-container{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+     top: 0;
+     width: 60%;
+  }
+  .services {
+    width: 100%;
+  }
+   .service-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+  
+
+}
+@media only screen and (max-width: 400px){
+  .service-head {
+    font-size: 45px;
+    color: #ffc400;
+  }
+  .work-contents {
+    margin-top: 10px;
+}
+
 }

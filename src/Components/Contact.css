@@ -171,8 +171,13 @@
 .contact-form {
   height: 100vh;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+.contact-form h1{
+  font-size: 50px;
+  color: #ffc400;
 }
 .card-2 {
   position: relative;
@@ -320,15 +325,36 @@ textarea::placeholder {
     max-width: fit-content;
   }
   .contact {
-    height: 70vh;
+    height: 80vh;
   }
+  input{
+    width: 200px;
+  }
+  textarea {
+    width: 200px;
+  }
+  .contact-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (max-width: 375px){
+    .contact-form {
+      height: 100vh;
+    
+    }
+    .contact {
+      height: 100vh;
+    }
+  }
+ 
 }
 @media only screen and (max-width: 1000px) and (min-width: 386px) {
   .contact-content {
     display: none;
   }
   .contact {
-    height: 70vh;
+    height: 100vh;
   }
   .contact-main {
     display: none;
@@ -336,4 +362,9 @@ textarea::placeholder {
     flex-direction: column;
     align-items: center;
   }
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    
+}
 }

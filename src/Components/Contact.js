@@ -67,12 +67,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
+     
       <form
+      
         className="contact-form"
         id="submit-form"
         action=""
         onSubmit={handleSubmit}
       >
+       <h1>Message Us</h1>
         <div className="card card-2">
           <input
             type="text"

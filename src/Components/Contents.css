@@ -8,4 +8,5 @@
     rgba(86, 14, 111, 1) 70%
   );
   position: relative;
+  overflow: hidden;
 }

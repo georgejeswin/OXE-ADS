@@ -123,7 +123,10 @@
     left: 0;
     transform: translate(25%, 50%);
   }
-
+  .logo{
+    margin-left: 20px;
+  }
+  
   .menu-icon {
     display: block;
     position: absolute;
@@ -160,7 +163,7 @@
     transition: 250ms;
   }
   .head-img{
-    width: 95%;
+    width: 80%;
   }
 .home-container{
   width: 100%;
@@ -178,5 +181,6 @@
   width: 100vw;
   align-items: center;
   justify-content: space-between;
+  background-color:#291c56 ;
 }
 }
