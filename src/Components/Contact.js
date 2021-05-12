@@ -56,11 +56,11 @@ const Contact = () => {
                 <p>Oxeadsmedia@gmail.com</p>
                 <p>+8289906276</p>
               </div>
-              <div class="drops">
-                <div class="drop drop-1"></div>
-                <div class="drop drop-2"></div>
-                <div class="drop drop-3"></div>
-                <div class="drop drop-4"></div>
+              <div className="drops">
+                <div className="drop drop-1"></div>
+                <div className="drop drop-2"></div>
+                <div className="drop drop-3"></div>
+                <div className="drop drop-4"></div>
                 {/* <div class="drop drop-5"></div> */}
               </div>
             </div>
@@ -112,14 +112,14 @@ const Contact = () => {
           ></textarea>
           <button type="submit" className="btn-2">
             <span>Send</span>
-            <i class="fas fa-paper-plane"></i>
+            <i className="fas fa-paper-plane"></i>
           </button>
-          <div class="drops">
-            <div class="drop drop-5"></div>
-            <div class="drop drop-2"></div>
-            <div class="drop drop-7"></div>
-            <div class="drop drop-4"></div>
-            <div class="drop drop-6"></div>
+          <div className="drops">
+            <div className="drop drop-5"></div>
+            <div className="drop drop-2"></div>
+            <div className="drop drop-7"></div>
+            <div className="drop drop-4"></div>
+            <div className="drop drop-6"></div>
           </div>
         </div>
       </form>
