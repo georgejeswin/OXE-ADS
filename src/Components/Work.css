@@ -1,111 +1,51 @@
-.work {
-  margin-top: 70px;
-}
 .work-head h1 {
-  top: -104px;
-  left: 0;
-  margin-top: 50px;
-  margin-left: 110px;
-  font-size: 45px;
+  font-size: 60px;
   color: #ffc400;
+  font-weight: bolder;
 }
-.work-container {
-  position: relative;
-}
-.work-content {
-  padding: 0 50px;
-}
-.work-content-left {
-  flex: 0.5;
-  padding-left: 20px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.work-content-right {
-  flex: 0.5;
-}
-.work-contents {
-  color: #fff;
-  margin-top: 100px;
-  padding: 0 20px;
-}
-
 .work-content-item p {
   font-size: 18px;
   margin-top: 40px;
   font-weight: 100;
   color: rgb(185, 184, 184);
   padding: 30px;
+  margin: 10px;
 }
-
-.work-content-item img {
-  min-width: 500px;
-  max-width: 600px;
-}
-.work-content {
-  height: 70vh;
-}
-.work-content h1 {
-  margin-left: 50px;
+.work-content h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
 }
 .work-content-item {
   display: flex;
+  align-items: center;
 }
-
+.work-content-item img {
+  min-width: 500px;
+  max-width: 500px;
+}
 @media only screen and (max-width: 600px) {
-  .work-head h1 {
-    margin-left: 10px;
+  .work-content-item img {
+    min-width: 320px;
+    max-width: 320px;
   }
-  .work-content img {
-    max-width: 350px;
-    min-width: 280px;
+  .res-hide {
+    display: none;
+  }
+  .work-content-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .work-content {
-    flex-direction: column;
-    max-height: 400px;
-    display: flex;
-  }
-  .work-content-right {
-    margin-left: -100px;
-    max-width: 100px;
-    padding: 0;
-  }
-  .work-content-left {
-    margin-left: -10px;
-  }
-  .work-contents {
-    /* margin-top: 200px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .work-content-text {
-    padding: 0px;
-  }
-  .work-content-left h1 {
-    font-size: 22px;
-    font-weight: 700;
-    /* margin-left: 100px !important; */
-    padding: 0;
-  }
-  .work-content {
-    height: 70vh;
-  }
-
-  .res-hide {
-    display: none;
-  }
-}
-@media only screen and (max-width: 1054px) and (min-width: 601px) {
-  .res-hide {
-    display: none;
-  }
-  .work-contents {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .work-head h1 {
+    font-size: 40px;
+    color: #ffc400;
+    font-weight: bolder;
   }
 }
