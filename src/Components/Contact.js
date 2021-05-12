@@ -69,7 +69,6 @@ const Contact = () => {
       </div>
      
       <form
-      
         className="contact-form"
         id="submit-form"
         action=""
