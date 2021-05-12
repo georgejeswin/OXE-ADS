@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Home /> */}
+        <Home />
         <Contents />
         <Footer />
       </Router>

@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 /* card */
@@ -130,6 +130,7 @@
   width: 84px;
   top: -37px;
   right: -33px;
+  margin-bottom: -100px;
 }
 
 .drop-5 {
@@ -169,7 +170,7 @@
 /* contact form */
 
 .contact-form {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -322,6 +323,9 @@ textarea::placeholder {
   .contact {
     height: 70vh;
   }
+  .contact-head {
+    max-width: 300px;
+  }
 }
 @media only screen and (max-width: 1000px) and (min-width: 386px) {
   .contact-content {
@@ -335,5 +339,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .contact-head {
+    max-width: 340px;
   }
 }

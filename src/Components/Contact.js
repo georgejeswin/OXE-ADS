@@ -31,13 +31,13 @@ const Contact = () => {
     });
   };
   return (
-    <div className="contact-main">
-      <div className="contact">
-        <div className="contact-container">
-          <div className="contact-content">
+    <div className="contact-main row">
+      <div className="contact col-md-12 col-12">
+        <div className="contact-container row">
+          <div className="contact-content col-md-6">
             <img src="./logo/contact.png" alt="" />
           </div>
-          <div className="contact-head">
+          <div className="contact-head col-md-3">
             <h1>Contact Us</h1>
 
             <div className="card">
@@ -68,7 +68,7 @@ const Contact = () => {
         </div>
       </div>
       <form
-        className="contact-form"
+        className="contact-form col-md-12 col-12"
         id="submit-form"
         action=""
         onSubmit={handleSubmit}

@@ -10,7 +10,7 @@ const Work = () => {
         </div>
         <div className="work-contents">
           <div className="work-content">
-            <h1>E-Commerce </h1>
+            <h2>E-Commerce </h2>
             <div className="work-content-item">
               <div className="work-content-left res-hide">
                 <div className="work-content-text">
@@ -33,7 +33,7 @@ const Work = () => {
             </div>
           </div>
           <div className="work-content">
-            <h1>Technology</h1>
+            <h2>Technology</h2>
             <div className="work-content-item">
               <div className="work-content-left">
                 <img data-aos="zoom-in" src="./logo/tech.png" alt="" />
@@ -56,7 +56,7 @@ const Work = () => {
             </div>
           </div>
           <div className="work-content">
-            <h1>Travel & Tourism</h1>
+            <h2>Travel & Tourism</h2>
             <div className="work-content-item">
               <div className="work-content-left res-hide">
                 <div className="work-content-text">
@@ -79,7 +79,7 @@ const Work = () => {
             </div>
           </div>
           <div className="work-content">
-            <h1>Media</h1>
+            <h2>Media</h2>
             <div className="work-content-item">
               <div className="work-content-left">
                 <img data-aos="zoom-in" src="./logo/media.png" alt="" />
