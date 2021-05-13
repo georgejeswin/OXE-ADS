@@ -49,6 +49,7 @@
     
     
   }
+
   
   .nav-item {
     height: 50px;
@@ -84,7 +85,11 @@
   display: none;
 }
 @media screen and (max-width: 960px) {
+  .navbar {
+    background-color: #291c56;
+  }
   .nav-menu {
+    
     display: flex;
     flex-direction: column;
     width: 100%;
