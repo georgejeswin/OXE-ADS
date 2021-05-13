@@ -41,12 +41,20 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="#services" className="nav-links" onClick={closeMobileMenu}>
+              <a
+                href="#services"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 SERVICES
               </a>
             </li>
             <li className="nav-item">
-              <a href="#process" className="nav-links" onClick={closeMobileMenu}>
+              <a
+                href="#process"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 PROCESS
               </a>
             </li>
@@ -56,13 +64,21 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
-              CONTACT
+              <a
+                href="#contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                CONTACT
               </a>
             </li>
             <li className="nav-item">
-              <a href="#submit-form" className="nav-links" onClick={closeMobileMenu}>
-               MESSAGE
+              <a
+                href="#submit-form"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                MESSAGE
               </a>
             </li>
             <li className="nav-item">

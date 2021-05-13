@@ -1,8 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@506&display=swap");
+
 .footer {
   background: #291c56;
   padding-top: 40px;
   padding-bottom: 30px;
   color: #fff;
+}
+.footer-menus p {
+  font-family: "Quicksand", sans-serif;
+}
+.footer-social h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+.footer-links {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
 .footer-container {
   display: flex;

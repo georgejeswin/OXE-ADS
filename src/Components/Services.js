@@ -28,7 +28,7 @@ const Services = () => {
           <div className="circle">
             <img src="./logo/services-2.png" alt="service" />
           </div>
-          <h2>Branding & Advertising</h2>
+          <h2>Creative Designing</h2>
           <Link to="/" className="btn ">
             <span>Learn More</span>
             <i className="fas fa-angle-right"></i>
@@ -38,7 +38,7 @@ const Services = () => {
           <div className="circle">
             <img src="./logo/services-3.png" alt="service" />
           </div>
-          <h2>Branding & Advertising</h2>
+          <h2>Web Development & UI/UX</h2>
           <Link to="/" className="btn ">
             <span>Learn More</span>
             <i className="fas fa-angle-right"></i>
@@ -48,7 +48,8 @@ const Services = () => {
           <div className="circle">
             <img src="./logo/services-4.png" alt="service" />
           </div>
-          <h2>Branding & Advertising</h2>
+          <h2>Interior &
+Exterior Designing</h2>
           <Link to="/" className="btn ">
             <span>Learn More</span>
             <i className="fas fa-angle-right"></i>
