@@ -3,7 +3,7 @@ import "./Work.css";
 
 const Work = () => {
   return (
-    <div className="work container">
+    <div className="work container" id="work">
       <div className="work-head">
         <h1 data-aos="fade-up">Industry Expertise</h1>
       </div>

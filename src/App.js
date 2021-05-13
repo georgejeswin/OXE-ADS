@@ -28,6 +28,7 @@ function App() {
   return (
     <>
       <Router>
+    
         <Home />
         <Contents />
         <Footer />

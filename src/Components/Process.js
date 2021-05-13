@@ -3,7 +3,7 @@ import "./Process.css";
 
 const Process = () => {
   return (
-    <div className="process container">
+    <div className="process container" id="process">
       <div className="head" data-aos="fade-up">
         <h1>How We Work.</h1>
       </div>
