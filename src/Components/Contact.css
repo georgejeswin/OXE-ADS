@@ -2,6 +2,10 @@
   font-size: 45px;
   color: #ffc400;
   font-weight: bolder;
+  font-family: "Sen", sans-serif;
+}
+.contact-form h1 {
+  font-family: "Sen", sans-serif;
 }
 .card {
   background: rgba(255, 255, 255, 0.3);
