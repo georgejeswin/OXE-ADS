@@ -41,34 +41,34 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#services" className="nav-links" onClick={closeMobileMenu}>
                 SERVICES
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#process" className="nav-links" onClick={closeMobileMenu}>
                 PROCESS
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <a href="#work" className="nav-links" onClick={closeMobileMenu}>
                 WORK
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                CLIENTS
-              </Link>
+              <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
+              CONTACT
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                CONTACTS
-              </Link>
+              <a href="#submit-form" className="nav-links" onClick={closeMobileMenu}>
+               MESSAGE
+              </a>
             </li>
             <li className="nav-item">
               {button && (
                 <Link to="/" className="btn btn-3 ">
-                  <span>8289906276</span>
+                  <span>7306951115</span>
                   <i className="fas fa-phone"></i>
                 </Link>
               )}

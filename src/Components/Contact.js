@@ -32,7 +32,7 @@ const Contact = () => {
   };
   return (
     <div className="contact-main container">
-      <div className="contact">
+      <div className="contact" id='contact'>
         <div className="contact-container row">
           <div className="contact-content col-md-4">
             <img src="./logo/contact.png" alt="" />
@@ -72,7 +72,7 @@ const Contact = () => {
         id="submit-form"
         action=""
         onSubmit={handleSubmit}
-      >
+       >
         <h1>Message Us</h1>
         <div className="card card-2">
           <input
