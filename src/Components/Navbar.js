@@ -42,7 +42,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                SERVICES
+                SERVICES...
               </Link>
             </li>
             <li className="nav-item">
