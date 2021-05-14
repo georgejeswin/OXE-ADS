@@ -39,7 +39,7 @@ const Home = () => {
             </div>    
             </div></SwiperSlide>
   <SwiperSlide><div className="home-container">
-            <img src="./logo/bg-3.jpg"  alt="main-img" className="bg"  />
+            <img src="./logo/bg-3.jpeg"  alt="main-img" className="bg bg-3"  />
             <div className="home-info"> 
             <img src="./logo/head.png" alt="head"  className="head-img" />
                 <h4 className="main-text">We are</h4>
@@ -47,8 +47,8 @@ const Home = () => {
             </div>    
             </div></SwiperSlide>
   <SwiperSlide><div className="home-container">
-            <img src="./logo/bg-4.jpg"  alt="main-img" className="bg"  />
-            <div className="home-info left"> 
+            <img src="./logo/bg-4.jpeg"  alt="main-img" className="bg"  />
+            <div className="home-info"> 
             <img src="./logo/head.png" alt="head"  className="head-img" />
                 <h4 className="main-text">We are</h4>
                 <h1 className="main-head">A Creative Digital Studio</h1>
