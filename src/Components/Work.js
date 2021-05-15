@@ -9,20 +9,14 @@ const Work = () => {
       </div>
       <div className="work-contents">
         <div className="work-content container">
-          <h2>E-Commerce </h2>
+          <h2>E-Commerce & Retail </h2>
           <div className="work-content-item row">
             <div className="work-content-left col-lg-6 col-md-12 col-12 res-hide">
               <div className="work-content-text">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book.
+                  We build powerful custom e-commerce development solutions
+                  including e-carts & marketplaces, social commerce solutions,
+                  e-auction sites, to name a few.
                 </p>
               </div>
             </div>
@@ -31,23 +25,17 @@ const Work = () => {
             </div>
           </div>
           <div className="work-content container">
-            <h2>Technology</h2>
+            <h2>Education & E-Learning</h2>
             <div className="work-content-item row">
               <div className="work-content-left col-lg-6 col-md-12 col-12">
-                <img data-aos="zoom-in" src="./logo/tech.png" alt="" />
+                <img data-aos="zoom-in" src="./logo/education.png" alt="" />
               </div>
               <div className="work-content-right col-lg-6 col-md-12 col-12 res-hide">
                 <div className="work-content-text">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Our custom e-learning solutions comprise online training
+                    apps, online courses, learning management systems, corporate
+                    learning portals, to name a few.
                   </p>
                 </div>
               </div>
@@ -59,15 +47,9 @@ const Work = () => {
               <div className="work-content-left col-lg-6 col-md-12 col-12 res-hide">
                 <div className="work-content-text">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Our agile software solutions for the travel industry improve
+                    your tour & travel business’ RoI and lessen its operational
+                    cost to make it more profitable.
                   </p>
                 </div>
               </div>
@@ -77,7 +59,7 @@ const Work = () => {
             </div>
           </div>
           <div className="work-content container">
-            <h2>Media</h2>
+            <h2>Media & Entertainment</h2>
             <div className="work-content-item row">
               <div className="work-content-left col-lg-6 col-md-12 col-12">
                 <img data-aos="zoom-in" src="./logo/media.png" alt="" />
@@ -85,15 +67,9 @@ const Work = () => {
               <div className="work-content-right col-lg-6 col-md-12 col-12 res-hide">
                 <div className="work-content-text">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Our offshore software development company offers social
+                    networking development tools, online promotion solutions,
+                    media content distribution channels with the latest trends.
                   </p>
                 </div>
               </div>
