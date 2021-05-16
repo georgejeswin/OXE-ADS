@@ -12,25 +12,26 @@ const Footer = () => {
         <div className="footer-menus">
           <ul className="footer-menu">
             <li className="footer-item">
-              <Link to="/" className="footer-links">
+              <a href="#home" className="footer-links">
                 HOME
-              </Link>
+              </a>
             </li>
             <li className="footer-item">
-              <Link to="/" className="footer-links">
+            <a href="#services" className="footer-links">
                 SERVICES
-              </Link>
+              </a>
             </li>
             <li className="footer-item">
-              <Link to="/" className="footer-links">
-                CLIENTS
-              </Link>
+              <a href="#process" className="footer-links">
+                PROCESS
+              </a>
             </li>
             <li className="footer-item">
-              <Link to="/" className="footer-links">
+              <a href="#contact" className="footer-links">
                 CONTACTS
-              </Link>
+              </a>
             </li>
+            
           </ul>
           <p>
             Privacy Policy &nbsp; &#8226; &nbsp; Terms & Conditions &nbsp;

@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <div className="home">
+      <div className="home" id="home">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}

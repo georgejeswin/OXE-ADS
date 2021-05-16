@@ -46,9 +46,11 @@
     list-style: none;
     text-align: center;
     width: 60vw;
+    padding-left: 50px;
     
     
   }
+
 
   
   .nav-item {
@@ -99,6 +101,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+     
   }
 
   .nav-menu.active {
@@ -108,7 +111,9 @@
     transition: all 0.5s ease;
     z-index: 1;
     padding: 46px 0px;
+
   }
+  
   .nav-links {
     text-align: center;
     padding: 2rem;
