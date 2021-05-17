@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import "./Contact.css";
+import Alert from '@material-ui/lab/Alert';
+import { CircularProgress } from '@material-ui/core'
 import $ from "jquery";
 window.$ = $;
 
 const Contact = () => {
+  const [alertInfo,setAlertInfo] = useState({
+    text:'',
+    type: ''
+  })
+  const [alert,setAlert] = useState(false)
+  const [loading,setLoading] = useState(false);
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
@@ -11,6 +19,7 @@ const Contact = () => {
     message: "",
   });
   const handleSubmit = (e) => {
+    setLoading(true)
     e.preventDefault();
     $.ajax({
       url: "https://script.google.com/macros/s/AKfycbycqvUnh14Jlpyc2sidbV0AVWVWt21AGGOtEhh_jiN0oL04BdEYPUxRdTGqOGOEsYs/exec",
@@ -23,13 +32,27 @@ const Contact = () => {
           phone: "",
           message: "",
         });
-        alert("form submitted");
+        setLoading(false)
+        setAlert(true)
+        setAlertInfo({text:"form submitted",type:"success"});
+        setInterval(() => {
+          setAlert(false)
+          setAlertInfo({})
+        }, 4000);
       },
+      
       error: function (err) {
-        alert("Something Error");
+        setLoading(false)
+        setAlert(true)
+        setAlert({text:"Something Error",type:"error"});;
+        setInterval(() => {
+          setAlert(false)
+          setAlertInfo({})
+        }, 4000);
       },
     });
   };
+
   return (
     <div className="contact-main container">
       <div className="contact" id="contact">
@@ -67,13 +90,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <form
+   
+        <form
         className="contact-form col-md-12 col-12 mt-5 pb-5"
         id="submit-form"
         action=""
         onSubmit={handleSubmit}
       >
         <h1>Message Us</h1>
+        {loading ? <CircularProgress  /> : alert ? <Alert severity={alertInfo.type}>{alertInfo.text}</Alert> : 
         <div className="card card-2">
           <input
             type="text"
@@ -123,7 +148,10 @@ const Contact = () => {
             <div className="drop drop-6"></div>
           </div>
         </div>
-      </form>
+        }
+      </form> 
+      
+       
     </div>
   );
 };
