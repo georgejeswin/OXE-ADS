@@ -72,12 +72,12 @@ const Contact = () => {
               <div className="card-text">
                 <h1>General</h1>
                 <p>Oxeadsmedia@gmail.com</p>
-                <p>+918289906276</p>
+                <p>+919496102561</p>
               </div>
               <div className="card-text">
                 <h1>Career</h1>
                 <p>Oxeadsmedia@gmail.com</p>
-                <p>+918289906276</p>
+                <p>+918086053157</p>
               </div>
               <div className="drops">
                 <div className="drop drop-1"></div>
