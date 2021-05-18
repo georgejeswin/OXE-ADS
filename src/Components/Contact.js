@@ -66,17 +66,17 @@ const Contact = () => {
             <div className="card">
               <div className="card-text">
                 <h1>New Biz</h1>
-                <p>Oxeadsmedia@gmail.com</p>
+                <p>oxeadsmedia@gmail.com</p>
                 <p>+918289906276</p>
               </div>
               <div className="card-text">
                 <h1>General</h1>
-                <p>Oxeadsmedia@gmail.com</p>
+                <p>oxeadsmedia@gmail.com</p>
                 <p>+919496102561</p>
               </div>
               <div className="card-text">
                 <h1>Career</h1>
-                <p>Oxeadsmedia@gmail.com</p>
+                <p>oxeadsmedia@gmail.com</p>
                 <p>+918086053157</p>
               </div>
               <div className="drops">
